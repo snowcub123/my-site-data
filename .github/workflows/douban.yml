@@ -38,7 +38,7 @@ jobs:
       - name: 同步豆瓣书籍
         uses: somkanel/douban-sync-action@v1.0.0
         with:
-          id: 【替换成你的豆瓣ID】
+          id: 224705884
           type: book
           format: json
           dir: ./data

@@ -25,7 +25,7 @@ jobs:
 
       # ========== 同步电影 movie ==========
       - name: 同步豆瓣电影
-        uses: somkanel/douban-sync-action@v1.0.1
+        uses: somkanel/douban-sync-action@v1.0.0
         with:
           id: 224705884
           type: movie
@@ -36,7 +36,7 @@ jobs:
 
       # ========== 同步书籍 book（需要就保留，不需要直接删除这一段） ==========
       - name: 同步豆瓣书籍
-        uses: somkanel/douban-sync-action@v1.0.1
+        uses: somkanel/douban-sync-action@v1.0.0
         with:
           id: 【替换成你的豆瓣ID】
           type: book
@@ -47,7 +47,7 @@ jobs:
 
       # ========== 同步音乐 music（需要就保留） ==========
       - name: 同步豆瓣音乐
-        uses: somkanel/douban-sync-action@v1.0.1
+        uses: somkanel/douban-sync-action@v1.0.0
         with:
           id: 224705884
           type: music
